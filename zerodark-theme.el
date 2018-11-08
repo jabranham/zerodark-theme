@@ -375,6 +375,9 @@ The result is cached for one second to avoid hiccups."
    `(ediff-fine-diff-C ((,class (:foreground ,blue :background ,bright-background-blue))))
    `(ediff-current-diff-C ((,class (:background ,background-blue :foreground ,blue))))
 
+   ;; eglot
+   `(eglot-mode-line ((,class (:foreground ,blue :background ))))
+
    ;; magit
    `(magit-diff-context-highlight ((,class (:background ,background-darker))))
    `(magit-diff-file-heading ((,class (:weight bold :foreground ,blue))))
